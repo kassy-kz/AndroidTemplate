@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AndroidTemplate</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_design_library">DesignLibraryActivity</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_swipe_refresh_layout">SwipeRefreshLayoutActivity</string>
+    <string name="title_activity_tmp">tmp</string>
+    <string name="title_activity_butter_knife">ButterKnifeActivity</string>
+    <string name="title_activity_back_action_bar">BackActionBarActivity</string>
+    <string name="title_activity_qr_capture">QrCaptureActivity</string>
+    <string name="title_activity_qr_capture_camera">QrCaptureCameraActivity</string>
+    <string name="title_activity_navigation_drawer_default">NavigationDrawerDefaultActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_weather_forecast">WeatherForecastActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

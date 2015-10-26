@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="orz.kassy.androidtemplate" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DesignLibraryActivity"
+            android:label="@string/title_activity_design_library"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".NavigationDrawerActivity"
+            android:label="@string/title_activity_navigation_drawer" >
+        </activity>
+        <activity
+            android:name=".NavigationDrawer2Activity"
+            android:theme="@style/AppTheme2" >
+        </activity>
+        <activity
+            android:name=".NavigationDrawer3Activity"
+            android:theme="@style/AppTheme3" >
+        </activity>
+        <activity
+            android:name=".TabLayoutActivity"
+            android:theme="@style/AppTheme2" >
+        </activity>
+        <activity android:name=".TabLayout2Activity" >
+        </activity>
+        <activity
+            android:name=".NavigationViewActivity"
+            android:theme="@style/AppTheme2" >
+        </activity>
+        <activity android:name=".NotificationCompatActivity" >
+        </activity>
+        <activity android:name=".MainServiceControlActivity" >
+        </activity>
+
+        <service android:name=".MainService" >
+        </service>
+
+        <activity android:name=".SnackbarActivity" >
+        </activity>
+        <activity
+            android:name=".SwipeRefreshLayoutActivity"
+            android:label="@string/title_activity_swipe_refresh_layout" >
+        </activity>
+        <activity android:name=".BooksDBActivity" >
+        </activity>
+        <activity
+            android:name=".ButterKnifeActivity"
+            android:label="@string/title_activity_butter_knife" >
+        </activity>
+        <activity
+            android:name=".BackActionBarActivity"
+            android:label="@string/title_activity_back_action_bar"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".QrCaptureActivity"
+            android:label="@string/title_activity_qr_capture" >
+        </activity>
+        <activity
+            android:name=".QrCaptureCameraActivity"
+            android:label="@string/title_activity_qr_capture_camera" >
+        </activity>
+        <activity
+            android:name=".NavigationDrawerDefaultActivity"
+            android:label="@string/title_activity_navigation_drawer_default"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".MaterialAnimation1Activity" >
+        </activity>
+        <activity
+            android:name=".WeatherForecastActivity"
+            android:label="@string/title_activity_weather_forecast"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>

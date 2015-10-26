@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/view_activity_root"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"/>
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <TextView  
+                android:id="@+id/serviceHeadText"
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:text="hello"
+            />
+            <Button
+                android:id="@+id/btnServiceStart"
+                android:text="start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+            />
+            <Button
+                android:id="@+id/btnServiceFuncCall"
+                android:text="call func"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+            />
+            <Button
+                android:id="@+id/btnServiceStop"
+                android:text="stop"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+            />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
