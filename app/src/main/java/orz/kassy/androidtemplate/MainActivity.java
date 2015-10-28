@@ -16,6 +16,7 @@ import android.widget.ListView;
 public class MainActivity extends ListActivity {
 
     private Object[] activities = {
+            "Picker", PickerActivity.class,
             "WeatherForecast", WeatherForecastActivity.class,
             "MaterialAnimation1", MaterialAnimation1Activity.class,
             "NavigationDrawer(Default)", NavigationDrawerDefaultActivity.class,
