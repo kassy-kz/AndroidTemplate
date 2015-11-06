@@ -16,6 +16,7 @@ import android.widget.ListView;
 public class MainActivity extends ListActivity {
 
     private Object[] activities = {
+            "Contact Provider", ContactProviderActivity.class,
             "Face Tracker", FaceTrackerActivity.class,
             "Activity Transition", TransitionActivity.class,
             "Picker", PickerActivity.class,
