@@ -31,7 +31,7 @@ public class TransitionActivity extends AppCompatActivity {
             getWindow().setExitTransition(new Explode());
             Intent intent = new Intent(this, Transition2Activity.class);
             startActivity(intent,
-                    ActivityOptions.makeSceneTransitionAnimation(this, null).toBundle());
+                    ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
         }
     }
 
@@ -41,7 +41,7 @@ public class TransitionActivity extends AppCompatActivity {
             getWindow().setExitTransition(new Slide());
             Intent intent = new Intent(this, Transition2Activity.class);
             startActivity(intent,
-                    ActivityOptions.makeSceneTransitionAnimation(this, null).toBundle());
+                    ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
         }
 
     }
@@ -52,7 +52,7 @@ public class TransitionActivity extends AppCompatActivity {
             getWindow().setExitTransition(new Fade());
             Intent intent = new Intent(this, Transition2Activity.class);
             startActivity(intent,
-                    ActivityOptions.makeSceneTransitionAnimation(this, null).toBundle());
+                    ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
         }
     }
 
