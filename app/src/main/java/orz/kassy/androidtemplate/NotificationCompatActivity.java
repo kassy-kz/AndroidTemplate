@@ -7,6 +7,7 @@ import android.app.Service;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.renderscript.RenderScript;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -107,6 +108,7 @@ public class NotificationCompatActivity extends AppCompatActivity implements Vie
         builder.setContentText("コンテンツの内容");
         builder.setContentInfo("情報欄");
         builder.setTicker("アプリからの通知概要");
+        builder.setPriority(NotificationCompat.PRIORITY_MAX);
 
         TypedValue outValue = new TypedValue();
         getTheme().resolveAttribute(android.R.attr.colorAccent, outValue, true);
@@ -149,6 +151,7 @@ public class NotificationCompatActivity extends AppCompatActivity implements Vie
                 | Notification.DEFAULT_VIBRATE
                 | Notification.DEFAULT_LIGHTS);
         builder.setTicker("アプリからの通知概要");
+        builder.setPriority(NotificationCompat.PRIORITY_MAX);
 
         // マネージャをつかって通知する
         NotificationManager manager = (NotificationManager)

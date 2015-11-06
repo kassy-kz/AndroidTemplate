@@ -16,6 +16,7 @@ import android.widget.ListView;
 public class MainActivity extends ListActivity {
 
     private Object[] activities = {
+            "PercentRelative", PercentRelativeActivity.class,
             "Contact Provider2", ContactProvider2Activity.class,
             "Contact Provider", ContactProviderActivity.class,
             "Face Tracker", FaceTrackerActivity.class,
