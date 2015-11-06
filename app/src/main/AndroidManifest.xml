@@ -131,6 +131,8 @@
         </activity>
         <activity android:name=".ContactProviderActivity" >
         </activity>
+        <activity android:name=".ContactProvider2Activity" >
+        </activity>
     </application>
 
 </manifest>
