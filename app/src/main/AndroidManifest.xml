@@ -135,6 +135,10 @@
         </activity>
         <activity android:name=".PercentRelativeActivity" >
         </activity>
+        <activity android:name=".DesignButtonActivity" >
+        </activity>
+        <activity android:name=".CardViewActivity" >
+        </activity>
     </application>
 
 </manifest>

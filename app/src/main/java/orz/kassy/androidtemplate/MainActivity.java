@@ -16,6 +16,8 @@ import android.widget.ListView;
 public class MainActivity extends ListActivity {
 
     private Object[] activities = {
+            "CardView", CardViewActivity.class,
+            "DesignButton", DesignButtonActivity.class,
             "PercentRelative", PercentRelativeActivity.class,
             "Contact Provider2", ContactProvider2Activity.class,
             "Contact Provider", ContactProviderActivity.class,
