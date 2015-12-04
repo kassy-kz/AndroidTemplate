@@ -16,6 +16,7 @@ import android.widget.ListView;
 public class MainActivity extends ListActivity {
 
     private Object[] activities = {
+            "RailsAccess", RailsAccessActivity.class,
             "CardView", CardViewActivity.class,
             "DesignButton", DesignButtonActivity.class,
             "PercentRelative", PercentRelativeActivity.class,
